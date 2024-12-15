@@ -1,12 +1,18 @@
-export default function Home() {
+const PDFPage = () => {
   return (
-    <div style={{ width: "100%", height: "100vh" }}>
+    <div style={{ height: "100vh", overflowY: "auto" }}>
       <iframe
         src="/ChargedUpDec2024.pdf"
-        style={{ width: "100%", height: "100%" }}
-        frameBorder="0"
+        style={{
+          width: "100%",
+          height: "100%",
+          border: "none",
+          overflow: "auto",
+        }}
         title="PDF Viewer"
-      />
+      ></iframe>
     </div>
   );
-}
+};
+
+export default PDFPage;
