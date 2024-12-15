@@ -1,6 +1,6 @@
 const PDFPage = () => {
   return (
-    <div style={{ height: "100vh", overflowY: "auto" }}>
+    <div className="w-full h-full">
       <object data="ChargedUpDec2024.pdf" type="application/pdf">
         <embed src="ChargedUpDec2024.pdf" type="application/pdf" />
     </object>
