@@ -4,11 +4,7 @@ const PDFPage = () => {
       <object
         data="ChargedUpDec2024.pdf"
         type="application/pdf"
-        className="w-full h-screen"
-        style={{
-          transform: 'scale(1)', // Ensure no scaling distortion
-          transformOrigin: 'top left', // Maintain alignment
-        }}
+        className="w-full h-screen min-w-full md:min-w-0"
       >
         <embed
           src="ChargedUpDec2024.pdf"
