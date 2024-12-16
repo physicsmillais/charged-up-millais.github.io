@@ -1,6 +1,20 @@
-{\rtf1\ansi\ansicpg1252\cocoartf2761
-\cocoatextscaling0\cocoaplatform0{\fonttbl}
-{\colortbl;\red255\green255\blue255;}
-{\*\expandedcolortbl;;}
-\paperw11900\paperh16840\margl1440\margr1440\vieww11520\viewh8400\viewkind0
-}
+const PDFPage = () => {
+  return (
+    <div className="w-screen h-screen overflow-auto flex justify-center items-center">
+      <iframe
+        src="https://drive.google.com/file/d/1Kd9faqYL-li8sRsVHKsj1_sbG7wh6aTL/preview?usp=sharing?embedded=true"
+        style={{
+          width: '100%',
+          height: '100%',
+          border: 'none',
+        }}
+        frameBorder={0}
+        title="PDF Viewer"
+      >
+        Loading…
+      </iframe>
+    </div>
+  );
+};
+
+export default PDFPage;
