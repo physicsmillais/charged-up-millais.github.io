@@ -1,17 +1,11 @@
 const PDFPage = () => {
   return (
     <div className="w-screen h-screen overflow-auto">
-      <object
-        data="/ChargedUpDec2024.pdf"
-        type="application/pdf"
-        className="w-screen h-screen min-w-screen"
-      >
-        <embed
-          src="/ChargedUpDec2024.pdf"
-          type="application/pdf"
-          className="w-screen h-screen min-w-screen"
-        />
-      </object>
+      <iframe
+        src="/ChargedUpDec2024.pdf"
+        className="w-screen h-screen min-w-full"
+        style={{ border: "none" }}
+      ></iframe>
     </div>
   );
 };
