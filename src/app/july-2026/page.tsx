@@ -2,7 +2,7 @@ const PDFPage = () => {
   return (
     <div className="w-screen h-screen overflow-auto flex justify-center items-center">
       <iframe
-        src="https://drive.google.com/file/d/18WkvDCCy6ZiopVccHf_ma3Gk_oYqV2cG/preview?usp=sharing?embedded=true"
+        src="https://drive.google.com/file/d/1dceX_edM9RjhKxvpWSq39bGk4AnnmGd6/preview?usp=sharing?embedded=true"
         style={{
           width: "100%",
           height: "100%",
